@@ -14,6 +14,6 @@ prev.onclick = () => {
 
 next.onclick = () => {
     position -= widthPictures * numberOfVisiblePictures;
-    position = Math.max(position, -widthPictures * (listElements.length - numberOfVisiblePictures));
+    position = Math.max(position, -widthPictures * (listElements.length - numberOfVisiblePictures)); // not over -938px
     list.style.marginLeft = position + 'px';
 }
