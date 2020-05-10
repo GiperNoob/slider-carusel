@@ -1,0 +1,30 @@
+.container {
+    width: 500px;
+    position: relative;
+    border: 1px solid black;
+}
+
+.slider {
+    width: 390px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.images {
+    width: 9999px;
+    height: 130px;
+    padding-inline-start: 0px;
+}
+
+.images > li {
+    display: inline-block;
+}
+
+.images > li > img {
+    background: red;
+    display: block;
+}
+
+.arrow {
+    position: absolute;
+}
