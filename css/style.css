@@ -1,7 +1,14 @@
+body {
+    background: rgb(240, 241, 218);
+}
+
 .container {
     width: 500px;
     position: relative;
-    border: 1px solid black;
+    border: 5px solid black;
+    border-radius: 15px;
+    background: #cccccc;
+    margin: 200px auto;
 }
 
 .slider {
@@ -21,10 +28,26 @@
 }
 
 .images > li > img {
-    background: red;
     display: block;
 }
 
 .arrow {
     position: absolute;
+    background: #dddddd;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.arrow:hover {
+    background: #cccccc;
+}
+
+.prev {
+    top: 65px;
+    left: 10px;
+}
+
+.next {
+    top: 65px;
+    right: 10px;
 }
