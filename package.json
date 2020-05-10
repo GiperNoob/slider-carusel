@@ -1,0 +1,20 @@
+{
+  "name": "slider-carusel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GiperNoob/slider-carusel.git"
+  },
+  "keywords": [],
+  "author": "Pribitkov Nicolai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GiperNoob/slider-carusel/issues"
+  },
+  "homepage": "https://github.com/GiperNoob/slider-carusel#readme"
+}
